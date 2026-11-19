@@ -2,6 +2,33 @@
   "repository": "estechfy/public",
   "releases": [
     {
+      "version": "v1.0.0-build.9",
+      "tag": "fastplayer-v1.0.0-build.9",
+      "name": "FastPlayer 1.0.0 build 9 - LGPL対応物",
+      "original_published_at": "2026-11-19T11:55:52Z",
+      "url": "https://github.com/estechfy/public/releases/tag/fastplayer-v1.0.0-build.9",
+      "assets": [
+        {
+          "name": "FastPlayer-relink.zip",
+          "size": 5592732,
+          "sha256": "fe7be60c3c95f4257702c39402667064b2d11ffedcb01dee10a6af36607328d4",
+          "url": "https://github.com/estechfy/public/releases/download/fastplayer-v1.0.0-build.9/FastPlayer-relink.zip"
+        },
+        {
+          "name": "FFmpeg-compliance.zip",
+          "size": 19129972,
+          "sha256": "4ff751b91186cd17b578c4a953aac4743fca26c519b5c2cdb5738dead4663349",
+          "url": "https://github.com/estechfy/public/releases/download/fastplayer-v1.0.0-build.9/FFmpeg-compliance.zip"
+        },
+        {
+          "name": "SHA256SUMS",
+          "size": 176,
+          "sha256": "882c821a196ab70d388abac778047c0d8f1151f11234c51258ed44462f51e7a4",
+          "url": "https://github.com/estechfy/public/releases/download/fastplayer-v1.0.0-build.9/SHA256SUMS"
+        }
+      ]
+    },
+    {
       "version": "v1.0.0-build.8",
       "tag": "fastplayer-v1.0.0-build.8",
       "name": "FastPlayer 1.0.0 build 8 - LGPL対応物",
