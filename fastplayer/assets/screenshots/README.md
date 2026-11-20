@@ -1,6 +1,16 @@
 # FastPlayerのストア掲載画像
 
-## 現在の掲載画像（1.0.0）
+## 1.0.0 build 13 の日英画像
+
+`ja/` と `en-US/` は各4枚、2560×1600のJPEG。再生プレビュー、暗号化結果とFinder、右開き見開き、保護カットの順。英語版は見出しと説明を翻訳し、操作部分には同じ日本語環境の実画面を使用した。
+
+このフォルダで `swift source/render-launch.swift .` を実行すると両言語の画像を生成できる。再生素材は [審査用の自作動画](../../review/FastPlayer-sample.mp4)。プレイヤー上でシークバーのプレビューを表示し、CBZの2–3ページを開いて撮影した。暗号化とカットはデモ用の表示名を使った。Finderは撮影用のFPVのみを切り出した。
+
+コミック原画は `source/coastal-railway.png`。ImageGen用の生成指示は以下。
+
+> Original wordless Japanese travel manga, a double-page spread viewed flat and straight-on. A hand-inked seaside train journey. Right-hand page has three crisp inset panels showing an adult traveler holding a ticket, a rural platform, and the little train arriving. Left-hand page has two panels with a sweeping wide coastal railway viaduct and the traveler looking out toward the glittering sea. Detailed black ink hatching on warm white paper, restrained sea-teal spot color. Clear white vertical center gutter at exactly half width so the two pages can be split there. No text, no logos, no signatures, no reference to existing IP. Horizontal 3:2 composition, full bleed, no device or book mockup.
+
+## 以前の暗号化・カットの掲載画像
 
 日本語・Mac向けの2560×1600px。1枚目は自作MP4を3件暗号化した結果、2枚目はそのFPVを開いて4〜9秒の区間を追加した高速カット画面です。アカウント表示には撮影用の「デモ用アカウント」を使用しています。`source/encrypt-ui.png` と `source/cut-ui.png` はアプリの実装で描画した画面です。
 
